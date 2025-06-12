@@ -3,8 +3,8 @@ from jose import JWTError, jwt
 from datetime import datetime, timedelta
 from typing import Optional
 
-# Set a strong random secret key in production!
-SECRET_KEY = "supersecretkeychangeit"
+# Use a secure, random secret key in production!
+SECRET_KEY = "CHANGE_THIS_TO_A_RANDOM_SECRET_IN_PROD"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24  # 1 day
 
