@@ -5,7 +5,7 @@ import uuid
 
 app = FastAPI()
 
-# Create tables (for dev only, not prod migrations!)
+# Create tables (for dev only, not prod migrations! okay)
 models.Base.metadata.create_all(bind=database.engine)
 
 # Dependency to get DB session
